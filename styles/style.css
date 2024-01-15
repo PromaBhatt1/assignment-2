@@ -13,11 +13,16 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
-nav img{
-    max-width:5%
-}
 .nav-title .tale{
     color: #FF5400;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo img{
+    max-width: 20%;
 }
 nav > ul{
     display: flex;
@@ -186,4 +191,135 @@ main{
 .row1-img7{
     width: 60%;
     height: 300px;
+}
+.chooseus{
+    text-align: center;
+    margin: 0 auto;
+}
+.chooseus h3{
+        font-size: 30px;
+        font-weight: 800;
+}
+.chooseus p{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+}
+.hotels-maps{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+.hotel{
+    max-width: 50%;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+.hotel p{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+.map{
+    max-width: 50%;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+.map p{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+.price{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    max-width: 50%;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+.price p{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+.last-section{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+.newsletter-section{
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+.last-img{
+    max-width: 70%;
+}
+#name{
+    width: 90%;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+}
+#email{
+    width: 90%;
+    height: 40px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+}
+.subscribe-btn{
+    width: 90%;
+    height: 40px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 800;
+}
+.footer-start{
+    background: rgba(19, 19, 24, 0.05);
+    height: 510px;
+}
+.footer-div{
+    text-align: center;
+    align-items: center;
+    padding-top: 120px;
+
+}
+.footer-div1{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.footer-img{
+    
+}
+.footer-title .tale{
+    color: #FF5400;
+}
+.footer-para{
+    color: #5A5A5D;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+.space{
+    width: 800px;
+    background: rgba(19, 19, 24, 0.10);
+}
+.last-para{
+    color: #131318;
+    font-size: 16px;
+    font-weight: 300;
+    padding-top: 70px;
 }
