@@ -57,7 +57,7 @@ nav li a{
     color: #FFF;
 }
 .banner-para{
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 160%;
 }
@@ -103,4 +103,87 @@ nav li a{
     font-weight: 400;
     color: #FFF;
     background-color: #FF5400;
+}
+main{
+    padding: 40px 250px;
+}
+.parent-div-of-section-2{
+    display: flex;
+    gap: 30px;
+}
+.section2-img{
+    width: 60%;
+}
+.read-more-btn{
+    width: 130px;
+    height: 45px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFF;
+    background-color: #FF5400;
+}
+.popular-tours{
+    color: #131318;
+    font-size: 30px;
+    font-weight: 800;
+}
+.popular-tours-paragraph{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+}
+.destination{
+    text-align: center;
+    margin: 0 auto;
+}
+.destination h2{
+    font-size: 30px;
+    font-weight: 800;
+}
+.destination p{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+}
+.img-row1{
+    display: flex;
+    gap: 15px;
+}
+.img-row2{
+    display: flex;
+    gap: 15px;
+}
+.img-row3{
+    display: flex;
+    gap: 15px;
+}
+.row1-img1{
+    width: 50%;
+    height: 300px;
+}
+.row1-img2{
+    width: 50%;
+    height: 300px;
+}
+.row1-img3{
+    width: 30%;
+    height: 300px;
+}
+.row1-img4{
+    width: 43%;
+    height: 300px;
+}
+.row1-img5{
+    width: 25%;
+    height: 300px;
+}
+.row1-img6{
+    width: 40%;
+    height: 300px;
+}
+.row1-img7{
+    width: 60%;
+    height: 300px;
 }
