@@ -25,10 +25,17 @@ nav > ul{
 nav li{
     list-style: none;
     margin-right: 30px;
+    font-weight: 400;
+    font-size: 1rem;
 }
-.nav-bar .ul .li .home{
+nav ul li .home{
     color: #FF5400;
 }
+nav li a{
+    text-decoration: none;
+    color: #424247;
+}
+
 .banner{
     margin-top: 50px;
     width: 100%;
