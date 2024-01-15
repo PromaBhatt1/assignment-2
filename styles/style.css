@@ -233,9 +233,6 @@ main{
     font-weight: 400;
 }
 .price{
-    display: flex;
-    align-items: center;
-    justify-content: center;
     border-radius: 16px;
     max-width: 50%;
     border: 1px solid rgba(233, 68, 68, 0.20);
@@ -254,6 +251,11 @@ main{
 .newsletter-section{
     border-radius: 16px;
     border: 1px solid #FF5400;
+}
+.newsletter-section p{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
 }
 .last-img{
     max-width: 70%;
@@ -300,9 +302,6 @@ main{
     display: flex;
     gap: 10px;
     align-items: center;
-}
-.footer-img{
-    
 }
 .footer-title .tale{
     color: #FF5400;
