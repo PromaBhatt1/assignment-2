@@ -408,7 +408,7 @@ body {
     }
 }
 /* phone */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px){
 
     header {
         /* padding: 40px 250px; */
@@ -762,7 +762,6 @@ body {
         align-items: center;
         padding-top: 120px;
 
-    }
     }
     .footer-title .tale {
         color: #FF5400;
