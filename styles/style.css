@@ -52,7 +52,9 @@ body {
         text-decoration: none;
         color: #424247;
     }
-
+    .hamburger{
+        display: none;
+    }
     .banner {
         margin-top: 50px;
         width: 100%;
@@ -437,7 +439,9 @@ body {
     nav>ul {
         display: flex;
     }
-
+    .nav-pages{
+        display: none;
+    }
     nav li {
         list-style: none;
         margin-right: 30px;
@@ -539,8 +543,8 @@ body {
         padding: 40px 250px;
     }
     .parent-div-of-section-2 {
-        display: flex;
-        flex-direction: column;
+        /* display: flex; */
+        /* flex-direction: column; */
         gap: 30px;
     }
 
