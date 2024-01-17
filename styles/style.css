@@ -6,6 +6,7 @@ body {
     margin: 0%;
     padding: 0%;
 }
+
 /* DeskTop */
 @media screen and (min-width: 992px) {
 
@@ -52,9 +53,11 @@ body {
         text-decoration: none;
         color: #424247;
     }
-    .hamburger{
+
+    .hamburger {
         display: none;
     }
+
     .banner {
         margin-top: 50px;
         width: 100%;
@@ -146,6 +149,7 @@ body {
         font-size: 16px;
         font-weight: 400;
     }
+
     .section2-img {
         width: 60%;
     }
@@ -172,6 +176,7 @@ body {
         font-size: 16px;
         font-weight: 400;
     }
+
     .destination {
         padding: 20px 20px;
         text-align: center;
@@ -310,9 +315,9 @@ body {
 
     .last-section {
         /* justify-content: center; */
-         display: flex;
-         margin-top: 40px;
-         /* padding: 30px 20px; */
+        display: flex;
+        margin-top: 40px;
+        /* padding: 30px 20px; */
         gap: 30px;
     }
 
@@ -328,7 +333,8 @@ body {
         font-size: 16px;
         font-weight: 400;
     }
-    .hr-space{
+
+    .hr-space {
         width: 80%;
         color: #FF5400;
     }
@@ -379,9 +385,11 @@ body {
         padding-top: 120px;
 
     }
-    .logo{
+
+    .logo {
         justify-content: center;
     }
+
     .footer-title .tale {
         color: #FF5400;
     }
@@ -405,12 +413,30 @@ body {
         font-weight: 300;
         padding-top: 70px;
     }
-    .social-logo{
+
+    .social-logo {
         text-align: center;
     }
+
+    .footer-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-logo-img {
+        height: 30px;
+        display: inline-block;
+    }
+
+    .footer-logo-title {
+        margin: 0;
+        display: inline-block;
+    }
 }
+
 /* phone */
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
 
     header {
         /* padding: 40px 250px; */
@@ -439,9 +465,11 @@ body {
     nav>ul {
         display: flex;
     }
-    .nav-pages{
+
+    .nav-pages {
         display: none;
     }
+
     nav li {
         list-style: none;
         margin-right: 30px;
@@ -539,16 +567,22 @@ body {
         background-color: #FF5400;
     }
 
-    main {
-        padding: 40px 250px;
+    .mainPart {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
+
     .parent-div-of-section-2 {
-        /* display: flex; */
-        /* flex-direction: column; */
+        display: flex;
+        flex-direction: column;
         gap: 30px;
     }
 
     .section-2 ul {
+        text-align: start;
         color: rgba(19, 19, 24, 0.70);
         font-size: 16px;
         font-weight: 400;
@@ -582,9 +616,9 @@ body {
         font-weight: 400;
     }
 
+
     .destination {
         text-align: center;
-        margin: 0 auto;
     }
 
     .destination h2 {
@@ -598,60 +632,46 @@ body {
         font-weight: 400;
     }
 
-    .img-row1 {
-        display: flex;
-        gap: 15px;
-    }
+    .img-row1 {}
 
-    .img-row2 {
-        display: flex;
-        gap: 15px;
-    }
+    .img-row2 {}
 
-    .img-row3 {
-        display: flex;
-        gap: 15px;
-    }
+    .img-row3 {}
 
     .row1-img1 {
-        width: 50%;
-        height: 300px;
+        width: 90%;
     }
 
     .row1-img2 {
-        width: 50%;
-        height: 300px;
+        width: 90%;
     }
 
     .row1-img3 {
-        width: 30%;
-        height: 300px;
+        width: 90%;
     }
 
     .row1-img4 {
-        width: 43%;
-        height: 300px;
+        width: 90%;
     }
 
     .row1-img5 {
-        width: 25%;
-        height: 300px;
+        width: 90%;
     }
 
     .row1-img6 {
-        width: 40%;
-        height: 300px;
+        width: 90%;
     }
 
     .row1-img7 {
-        width: 60%;
-        height: 300px;
+        width: 90%;
     }
 
-    .chooseus {
-        text-align: center;
-        margin: 0 auto;
+    .whyChoseUs {
+        display: block;
+        width: 90%;
     }
+
+    .chooseus {}
 
     .chooseus h3 {
         font-size: 30px;
@@ -665,13 +685,11 @@ body {
     }
 
     .hotels-maps {
-        display: flex;
-        gap: 30px;
-        justify-content: space-between;
+        text-align: center;
     }
 
     .hotel {
-        max-width: 50%;
+        display: block;
         border-radius: 16px;
         border: 1px solid rgba(251, 181, 99, 0.20);
         background: rgba(251, 181, 99, 0.05);
@@ -684,7 +702,7 @@ body {
     }
 
     .map {
-        max-width: 50%;
+        display: block;
         border-radius: 16px;
         border: 1px solid rgba(41, 206, 246, 0.20);
         background: rgba(41, 206, 246, 0.05);
@@ -697,8 +715,9 @@ body {
     }
 
     .price {
+        text-align: center;
+        display: block;
         border-radius: 16px;
-        max-width: 50%;
         border: 1px solid rgba(233, 68, 68, 0.20);
         background: rgba(233, 68, 68, 0.05);
     }
@@ -715,6 +734,12 @@ body {
     }
 
     .newsletter-section {
+        width: 90%;
+        text-align: center;
+        margin: auto;
+        /* display: flex;
+        flex-direction: column; */
+        /* justify-content: center; */
         border-radius: 16px;
         border: 1px solid #FF5400;
     }
@@ -726,7 +751,7 @@ body {
     }
 
     .last-img {
-        max-width: 60%;
+        width: 90%;
     }
 
     #name {
@@ -739,6 +764,8 @@ body {
 
     #email {
         margin-top: 15px;
+        width: 90%;
+        height: 40px;
         border: none;
         border-radius: 8px;
         background: rgba(19, 19, 24, 0.05);
@@ -746,6 +773,7 @@ body {
 
     .subscribe-btn {
         margin-top: 15px;
+        margin-bottom: 15px;
         border: none;
         border-radius: 8px;
         background: #FF5400;
@@ -754,19 +782,18 @@ body {
         font-size: 12px;
         font-style: normal;
         font-weight: 800;
+        width: 90%;
+        height: 40px;
+
     }
 
     .footer-start {
         background: rgba(19, 19, 24, 0.05);
-        height: 510px;
-    }
-
-    .footer-div {
         text-align: center;
-        align-items: center;
-        padding-top: 120px;
-
     }
+
+    .footer-div {}
+
     .footer-title .tale {
         color: #FF5400;
     }
@@ -778,8 +805,12 @@ body {
         font-weight: 400;
     }
 
+    .footer-div {
+        text-align: center;
+    }
+
     .space {
-        width: 800px;
+        width: 98%;
         background: rgba(19, 19, 24, 0.10);
     }
 
@@ -788,5 +819,21 @@ body {
         font-size: 16px;
         font-weight: 300;
         padding-top: 70px;
+    }
+
+    .footer-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-logo-img {
+        height: 30px;
+        display: inline-block;
+    }
+
+    .footer-logo-title {
+        margin: 0;
+        display: inline-block;
     }
 }
