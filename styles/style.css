@@ -641,30 +641,37 @@ body {
 
     .row1-img1 {
         width: 90%;
+        margin-bottom: 15px;
     }
 
     .row1-img2 {
         width: 90%;
+        margin-bottom: 15px;
     }
 
     .row1-img3 {
         width: 90%;
+        margin-bottom: 15px;
     }
 
     .row1-img4 {
         width: 90%;
+        margin-bottom: 15px;
     }
 
     .row1-img5 {
         width: 90%;
+        margin-bottom: 15px;
     }
 
     .row1-img6 {
         width: 90%;
+        margin-bottom: 15px;
     }
 
     .row1-img7 {
         width: 90%;
+        margin-bottom: 15px;
     }
 
     .whyChoseUs {
@@ -694,6 +701,7 @@ body {
         border-radius: 16px;
         border: 1px solid rgba(251, 181, 99, 0.20);
         background: rgba(251, 181, 99, 0.05);
+        margin-bottom: 15px;
     }
 
     .hotel p {
@@ -707,6 +715,7 @@ body {
         border-radius: 16px;
         border: 1px solid rgba(41, 206, 246, 0.20);
         background: rgba(41, 206, 246, 0.05);
+        margin-bottom: 15px;
     }
 
     .map p {
@@ -721,6 +730,7 @@ body {
         border-radius: 16px;
         border: 1px solid rgba(233, 68, 68, 0.20);
         background: rgba(233, 68, 68, 0.05);
+        margin-bottom: 15px;
     }
 
     .price p {
@@ -753,6 +763,7 @@ body {
 
     .last-img {
         width: 90%;
+        margin-top: 15px;
     }
 
     #name {
@@ -793,8 +804,6 @@ body {
         text-align: center;
     }
 
-    .footer-div {}
-
     .footer-title .tale {
         color: #FF5400;
     }
@@ -808,6 +817,7 @@ body {
 
     .footer-div {
         text-align: center;
+        margin-top: 25px;
     }
 
     .space {
