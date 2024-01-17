@@ -805,7 +805,7 @@ body {
         background: #FF5400;
         text-align: center;
         position: relative;
-        left: 300px;
+        float: right;
         top:-160px
     }
     .travel p{
