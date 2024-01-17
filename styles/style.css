@@ -375,6 +375,29 @@ body {
         font-size: 12px;
         font-weight: 800;
     }
+    .travel{
+        width: 240.023px;
+        height: 90.268px;
+        transform: rotate(-27.628deg);
+        border-radius: 10.569px;
+        background: #FF5400;
+        text-align: center;
+        position: relative;
+        left: 300px;
+        top:-160px
+    }
+    .travel p{
+        color: #FFF;
+        font-size: 15.854px;
+        font-weight: 400;
+        padding-top: 10px;
+        
+    }
+    .travel h2{
+        color: #FFF;
+        font-size: 21.138px;
+        font-weight: 800;
+    }
 
     .footer-start {
         background: rgba(19, 19, 24, 0.05);
